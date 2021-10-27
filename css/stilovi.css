@@ -1,0 +1,326 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: aqua;
+    background: url("../img/18.jpg")no-repeat fixed left bottom;
+    background-size:cover;
+}
+@media all and (max-width: 500px){
+    body{
+        display: none;
+    }
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: paleturquoise;
+}
+a:active{
+    color: springgreen;
+}
+
+/*index*/
+
+.zaglavlje {
+    background: #eee;
+    opacity: 0.9;
+    background-color:darkgoldenrod;
+    border: 2px solid yellow;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 25px;
+    border: 2px solid;
+    padding: 30px;
+    box-shadow: 5px 10px 10px red inset;
+    position: fixed;
+    float:left;
+}
+#naslov1{
+    color: red;
+    opacity:0.9;
+}
+.precicakontakti {
+    text-align: center;
+    
+}
+.autor {
+    text-align: center;
+}
+.navigacija1{
+    position: fixed;
+    margin: 10px 30px 55px 1200px;
+}
+/*index kraj*/
+
+/*o nama*/
+
+#naslov{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px red;
+}
+.tekst {
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 40px;  
+}
+.tekst2 {
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 30px;
+}
+#istorijat{
+    text-align: center;
+    text-shadow: 2px 2px 2px red;
+}
+.medno{
+    margin: 50px 230px 30px 370px;
+     border: 3px solid red;
+}
+ul{
+    list-style-type:disc;
+}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    border-radius: 10px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.tabela {
+    margin: 33px 64px 55px 615px;  
+    background: linear-gradient( red,yellow); 
+} 
+.proizvodi{
+    text-align: center;
+    text-shadow: 2px 2px 2px red;
+    background: linear-gradient(red,yellow);
+} 
+#medd{
+    text-align: center;
+    font-size: 44px;
+    margin: 140px 270px 55px ;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 5px 10px 10px red inset;
+    background: linear-gradient(red,yellow);
+}
+.med {
+    margin: 23px 23px 23px 23px;
+    column-count: 3;
+    column-gap: 30px; 
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: red;
+}
+.relative{
+    position: relative;
+    height: 250px;
+    width: 300px;
+    background: pink;  
+    margin: 50px 230px 30px 490px;
+    
+}  
+.absolute{
+    position: absolute;
+    height: 75px;
+    background:white;
+    border:10px solid #123;
+    top:30px;
+    left:30px;
+    opacity: 0.3;
+}
+.lipa{
+    float:right;   
+}
+#lip {
+	margin: 50px 230px 30px 490px; 
+}
+#demo{
+	font-size: 33px;
+	font-style: italic;
+	border: 12px solid yellow;
+}
+.rast{
+	text-align: center;
+}
+.brojpcela{
+	text-align: center;
+	
+}
+/*o nama kraj*/
+
+/*kontakt*/
+#naslov2 {
+    text-align: center;
+    text-shadow: 2px 2px 2px red;
+}
+.inf{
+    text-align: center;
+    font-size: 54px;
+    color: red;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 5px 10px 10px red inset;
+}   
+.email{
+    font-size: 33px;
+    color: red;
+    text-align: center;
+}
+.email2{
+    font-size: 33px;
+    color: red;
+    text-align: center;  
+}
+.tel{
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-size: 44px; 
+}
+.drustvenemreze{
+    text-align: center;
+    color: red;
+    font-size: 43px; 
+}
+.fb{
+    transform: rotate(-20deg);
+    margin:50px 230px 30px 250px;
+}
+.boks{
+    width: 300px;
+    height: 300px;
+    background: red;
+    color: white;
+    padding: 50px;
+    margin: 230px 440px 200px 370px;
+    border: 50px solid #eee;
+    text-align: center;
+    font-size: 23px;    
+}
+#rezime{
+	text-align: center;
+}
+.uopsteno{
+	font-size: 23px;
+	background: yellow;
+}
+#test{
+	font-size: 27px;
+	background: yellow;
+}
+.uopsteno2{
+	font-size: 27px;
+	background: yellow;
+}
+/*kontakti kraj*/
+
+
+/*galerija*/
+
+.naslovgalerija {
+  
+  text-align: center;
+  width: 300px;
+  height: 70px;
+  border: 3px solid red;
+  box-sizing:content-box;
+  text-shadow: 2px 2px 2px red;
+}
+
+.cao{
+    background: #eee;
+    opacity: 0.8;
+    background-color:darkgray;
+    border: 2px solid yellow;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 35px;
+    margin: 140px 270px 55px ;
+    border: 2px solid;
+    padding: 30px;
+    box-shadow: 5px 10px 10px red inset;
+}
+.w3-center{
+    text-align: center;
+    font-size: 44px;
+}
+.background {
+  background: url(https://originalsrbija.org/wp-content/uploads/2020/04/LIPA-CVET-500x300.jpg) repeat;
+  border: 2px solid black;
+  margin:73px 74px 74px 545px;
+}
+
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  border-radius: 50px;
+  animation-name: example;
+  animation-duration: 5s;
+  position: relative;
+  animation-iteration-count: 2;
+}
+
+@keyframes example {
+ 0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:pink; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+/* u svim elementima velicina fonta 15px */
+ul li{
+    font—size: 15px;
+}
+
+/* prvom elementu boja blue i velicina fonta 18px */
+ul li:first-of-type {
+    color: blue;
+    font—size: 18px;
+}
+
+/* poslednjem elementu boja crvena */
+ul li:last-of-type{
+    color: red;
+}
+
+/* neparnim elementima pozadina #eee */
+ul li:nth-child(odd){
+    background: #eee;
+}
+
+/* parnim elementima pozadina #ddd */
+ul li:nth-child(even){
+    background: #ddd;
+}
+
+/* svakom cetvrtom elementu bold, 12px */
+ul li:nth-child (4n+1){
+    font: bold;
+    font—size: 12px;
+}
+
+/* svakom e1ementu sem 2 u nizu padding 10px */
+ul li:not(:nth—child(2)}{
+    padding: 10px;
+}
+#med inf.{
+	margin: 50px 230px 30px 490px; 
+
+}
